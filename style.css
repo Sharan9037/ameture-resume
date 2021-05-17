@@ -1,0 +1,197 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.rightleft {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 20px;
+    padding: 15px 35px;
+}
+.left {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;}
+.left .backpic {
+    background-image: url(avatar_hat.jpeg);
+    height: 300px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.backpic .jane {
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+    font-size: 30px;
+}
+.details, .skill, .lan {
+    list-style-type: none;
+    padding: 15px;
+
+}
+.details li i {
+    color: rgb(65,151,136);
+    font-size: 15px;
+    margin-right: 10px;
+}
+.det {
+    color: rgb(117,117,117);
+    font-size: 15px;
+}
+.details li {
+    margin-bottom: 20px;
+    
+}
+.left .border {
+    border-bottom: 1px solid rgb(238,238,238);
+    margin: 0 15px;
+    
+}
+.skill i {
+    color: rgb(65,151,136);
+    font-size: 15px;
+    margin-right: 10px;
+}
+.sk {
+    color: rgb(117,117,117);
+    font-size: 18px;
+}
+.mar {
+    margin-top: 10px;
+}
+.skill li {
+    margin-bottom: 20px;
+}
+.skill .soft {
+    color: rgb(117,117,117);
+    font-size: 15px;
+}
+.back {
+    background-color: rgb(241,241,241);
+    border-radius: 16px;
+}
+.skill .percentageone {
+    width: 90%;
+    background-color: rgb(65,151,136);
+    border-radius: 16px;
+}
+.per {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+.skill .percentagetwo {
+    width: 80%;
+    background-color: rgb(65,151,136);
+    border-radius: 16px;
+}
+.skill .percentagethree {
+    width: 75%;
+    background-color: rgb(65,151,136);
+    border-radius: 16px;
+}
+.skill .percentagefour {
+    width: 50%;
+    background-color: rgb(65,151,136);
+    border-radius: 16px;
+}
+.lan li i {
+    color: rgb(65,151,136);
+    font-size: 15px;
+    margin-right: 10px;
+}
+.lan li {
+    margin-bottom: 20px;
+}
+.eng, .spa, .ger {
+    color: rgb(117,117,117);
+    font-size: 15px;
+}
+.perone {
+    width: 100%;
+    background-color: rgb(65,151,136);
+    border-radius: 16px;
+    height: 20px;
+}
+.pertwo {
+    width: 50%;
+    background-color: rgb(65,151,136);
+    border-radius: 16px;
+    height: 20px;
+}
+.perthree {
+    width: 30%;
+    background-color: rgb(65,151,136);
+    border-radius: 16px;
+    height: 20px;
+}
+.rightfirst, .rightsecond{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 15px;
+    padding: 25px 30px;
+}
+.header i {
+    color: rgb(65,151,136);
+    font-size: 30px;
+    margin-right: 10px;
+}
+.headtext {
+    font-size: 30px;
+    color: rgb(117,117,117);
+    font-weight: normal;
+}
+.header {
+    margin-bottom: 40px;
+}
+.position, .name {
+    color: rgb(134,134,134);
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.duration i {
+    margin-right: 10px;
+}
+.duration {
+    color: rgb(65,151,136);
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.cur {
+    background-color: rgb(65,151,136);
+    color: white;
+    padding: 3px 7px;
+    border-radius: 4px;
+}
+.jobdetails, .degree {
+    font-size: 15px;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+.border {
+    border-bottom: 1px solid rgb(238,238,238);
+    margin-bottom: 25px;
+    /* margin: 0 5px; */
+}
+.footer {
+    background-color: rgb(65,151,136);
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    padding: 16px;
+    font-weight: normal;
+}
+.footer h4 {
+    font-weight: normal;
+}
+.foothead, .socials, .powered {
+    margin-bottom: 15px;
+}
+.socials i:hover {
+    color: lightgrey;
+}
+.sharan {
+    text-decoration: underline;
+}
